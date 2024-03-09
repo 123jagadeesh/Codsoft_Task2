@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landingpage.css">
+    <title>Online Farmer's Market</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Online Farmer's Market</h1>
+    </header>
+
+    <section id="registration">
+        <h2>Register as a Farmer or Consumer</h2>
+        <form id="registrationForm">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <label for="userType">Select User Type:</label>
+            <select id="userType" required>
+                <option value="farmer">Farmer</option>
+                <option value="consumer">Consumer</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="products">
+        <h2>Available Raw Food Items</h2>
+        <div class="product-category" id="fruits">
+            <h3>Fruits</h3>
+            <div class="product">
+                <h4>Apple</h4>
+                <p>Fresh and organic apples from local farms.</p>
+                <img src="https://th.bing.com/th?id=OSK.HERO_oVMWp78N8ZQ_vrbKDZ3amxxpz1HxXGMuhZtsgotwcE&w=312&h=200&c=15&rs=2&o=6&oif=webp&dpr=1.3&pid=SANGAM" margin:50%>
+                <button class="buyNow">Buy Now</button>
+            </div>
+            <div class="product">
+                <h4>Orange</h4>
+                <p>Sweet and juicy oranges directly from farmers.</p>
+                <button class="buyNow">Buy Now</button>
+                <img src="https://th.bing.com/th/id/OIP.60S4lzl9kiu5oOKdVNll6AAAAA?w=235&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+            </div>
+        </div>
+
+        <div class="product-category" id="vegetables">
+            <h3>Vegetables</h3>
+            <div class="product">
+                <h4>Carrot</h4>
+                <p>Organically grown carrots with vibrant colors.</p>
+                <button class="buyNow">Buy Now</button>
+                <img src="https://diy.sndimg.com/content/dam/images/diy/fullset/2018/5/3/0/shutterstock_97404485_Iakov-Filimonov_harvested-carrots.jpg.rend.hgtvcom.1280.853.suffix/1525379049839.jpeg">
+            </div>
+            <div class="product">
+                <h4>Onions</h4>
+                <p>Onions from local farms.</p>
+                <button class="buyNow">Buy Now</button>
+                <img src="https://th.bing.com/th/id/OIP.QBSQ2BcQkdbd98qS2DfOjwHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"> 
+            </div>
+        </div>
+
+        <div class="product-category" id="grains">
+            <h3>Grains</h3>
+            <div class="product">
+                <h4>Rice</h4>
+                <p>High-quality Basmati rice from local fields.</p>
+                <button class="buyNow">Buy Now</button>
+                <img src="https://img.etimg.com/thumb/msid-108285832,width-300,height-225,imgsize-259154,resizemode-75/rice-istock.jpg">
+            </div>
+            <div class="product">
+                <h4>Wheat</h4>
+                <p>Nutrient-rich wheat grains for your meals.</p>
+                <button class="buyNow">Buy Now</button>
+                <img src="https://images.tigerchick.com/v7/https://dodseed.com/assets/images/_fancybox_2x/Wheetseed1.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback from Our Users</h2>
+        <div class="user-feedback">
+            <p><strong>Damodar:</strong> Great quality products! I love the variety.</p>
+        </div>
+        <div class="user-feedback">
+            <p><strong>Nagraj:</strong> The registration process was quick and easy.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Farmer's Market</p>
+    </footer>
+
+
+</body>
+</html>
